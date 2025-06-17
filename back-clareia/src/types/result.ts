@@ -1,0 +1,1 @@
+export type Result<T> = readonly [T, null] | readonly [null, Error]
